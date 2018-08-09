@@ -36,10 +36,12 @@
               return VERSION;
             }
           };
+
           /**
            * Decodes UTF-16 LE BOM string to UTF-8 string.
            * 
            * @memberof dcutls.utils
+           * @method decodeUtf16LeBom
            * @param {string} binaryString string which data represents UTF-16 LE BOM text
            * @returns {string} decoded UTF-8 string
            */
