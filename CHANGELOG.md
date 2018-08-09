@@ -6,3 +6,10 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
+
+## [1.0.0] - 2018-08-09
+
+### Added
+
+- Reusable service flows for Datacap integration.
+- Script for converting Datacap UTF-16 LE BOM XMLs to UTF-8.
