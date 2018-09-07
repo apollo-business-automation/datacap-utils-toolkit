@@ -6,12 +6,11 @@
     "version": "1.0.0",
     "private": true,
     "devDependencies": {
-        "jsdoc": "^3.4.3",
-        "jaguarjs-jsdoc": "^1.1.0"
+        "docdash": "^1.0.0",
+        "jsdoc": "^3.5.5",
+        "rimraf": "^2.6.2"
     },
     "scripts": {
-        "reloaddevdep": "rm -rf node_modules && npm update --dev",
-        "gendocs": "jsdoc . -r -c ./jsdoc-conf.json -d docs",
-        "prodgendocs": "npm update && jsdoc . -r -c ./jsdoc-conf.json -d docs"
+        "generatejsdoc": "rimraf docs && jsdoc . -r -c ./jsdoc-conf.json -d docs -R ./README.md"
     }
 }
