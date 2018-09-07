@@ -1,41 +1,31 @@
 {
-    "source": {
-        "exclude": [
-            "./node_modules/"
-        ],
-        "includePattern": ".+\\.js(doc)?$",
-        "excludePattern": "(^|\\/|\\\\)_"
-    },
-    "opts": {
-        "encoding": "utf8",
-        "recurse": true,
-        "private": false,
-        "destination": "./docs",
-        "template": "./node_modules/jaguarjs-jsdoc"
-    },
-    "tags": {
-        "allowUnknownTags": false
-    },
-    "templates": {
-        "applicationName": "Datacap Utils Toolkit",
-        "disqus": "",
-        "googleAnalytics": "",
-        "openGraph": {
-            "title": "Datacap Utils Toolkit Documentation",
-            "type": "website",
-            "image": "",
-            "site_name": "Datacap Utils Toolkit",
-            "url": ""
-        },
-        "meta": {
-            "title": "Datacap Utils Library Toolkit",
-            "description": "Documentation of Datacap Utils Toolkit"
-        },
-        "linenums": true,
-        "default": {
-            "cleverLinks": true,
-            "monospaceLinks": true,
-            "outputSourceFiles": false
-        }
+  "source": {
+    "exclude": [
+      "./node_modules/"
+    ],
+    "includePattern": ".+\\.js(doc)?$",
+    "excludePattern": "(^|\\/|\\\\)_"
+  },
+  "opts": {
+    "encoding": "utf8",
+    "recurse": true,
+    "private": false,
+    "destination": "./docs",
+    "template": "./node_modules/docdash"
+  },
+  "tags": {
+    "allowUnknownTags": false
+  },
+  "templates": {
+    "linenums": true,
+    "default": {
+      "cleverLinks": true,
+      "monospaceLinks": true,
+      "outputSourceFiles": false
     }
+  },
+  "docdash": {
+    "search": true,
+    "collapse": true
+  }
 }

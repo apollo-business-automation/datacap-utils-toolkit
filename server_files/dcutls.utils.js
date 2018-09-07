@@ -1,7 +1,3 @@
-/**
- * @fileOverview Defines {@link dcutls.utils}.
- */
-
 (function (scope) {
 
   var VERSION = 1;
