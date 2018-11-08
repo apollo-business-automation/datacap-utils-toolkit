@@ -14,7 +14,7 @@
     "template": "./node_modules/docdash"
   },
   "tags": {
-    "allowUnknownTags": false
+    "allowUnknownTags": true
   },
   "templates": {
     "linenums": true,
