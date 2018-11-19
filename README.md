@@ -4,7 +4,7 @@ Datacap Utils Toolkit is a collection of re-usable artifacts useful
 for integration with IBM Datacap REST services from IBM Business Automation Workflow.
 
 Documentation:
-<a href="https://github.ibm.com/apollo-dba-community/api/tree/master/datacap-utils-toolkit" target="_blank">https://github.ibm.com/apollo-dba-community/api/tree/master/datacap-utils-toolkit</a>
+<a href="https://pages.github.ibm.com/apollo-dba-community/api/datacap-utils-toolkit" target="_blank">https://pages.github.ibm.com/apollo-dba-community/api/datacap-utils-toolkit</a>
 
 Wiki:
 <a href="https://pages.github.ibm.com/apollo-dba-community/wiki/business-automation-workflow/toolkits/datacap-utils-toolkit" target="_blank">https://pages.github.ibm.com/apollo-dba-community/wiki/business-automation-workflow/toolkits/datacap-utils-toolkit</a>
