@@ -9,6 +9,7 @@
      *
      * @namespace dcutls
      * @type {Object}
+     * @serverjsassistance
      */
     scope.dcutls = {};
   }
@@ -23,6 +24,7 @@
            *
            * @namespace dcutls.utils
            * @type {Object}
+           * @serverjsassistance
            */
           var utils = {
             get whereAmI() {
@@ -40,6 +42,7 @@
            * @method decodeUtf16LeBom
            * @param {string} binaryString string which data represents UTF-16 LE BOM text
            * @returns {string} decoded UTF-8 string
+           * @serverjsassistance
            */
           utils.decodeUtf16LeBom = function (binaryString) {
             var cp = [];

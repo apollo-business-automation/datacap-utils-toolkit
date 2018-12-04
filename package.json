@@ -2,15 +2,22 @@
     "name": "datacap-utils-toolkit",
     "author": "IBM",
     "license": "UNLICENSED",
-    "description": "",
-    "version": "1.0.1",
+    "description": "Datacap Utils Toolkit is a collection of re-usable artifacts useful for integration with IBM Datacap REST services from IBM Business Automation Workflow.",
+    "version": "1.1.0",
     "private": true,
     "devDependencies": {
+        "code-assistance-generator": "git+ssh://git@github.ibm.com/apollo-dba-community/code-assistance-generator.git#1.0.0",
         "docdash": "^1.0.0",
+        "gulp": "^3.9.1",
         "jsdoc": "^3.5.5",
-        "rimraf": "^2.6.2"
+        "rimraf": "^2.6.2",
+        "sequence-stream": "^0.1.0"
     },
     "scripts": {
         "generatejsdoc": "rimraf docs && jsdoc . -r -c ./jsdoc-conf.json -d docs -R ./README.md"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.ibm.com/apollo-dba-community/datacap-utils-toolkit.git"
     }
 }
