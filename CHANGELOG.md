@@ -7,9 +7,15 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [1.1.0] - 2018-12-04
+
 ### Added
 
 - Assistance files which are used with webpd enhancements to enable code completion.
+
+### Fixed
+
+- Wrong links in readme.
 
 ## [1.0.1] - 2018-09-07
 
