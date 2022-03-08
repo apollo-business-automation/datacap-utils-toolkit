@@ -7,10 +7,10 @@
     "private": true,
     "devDependencies": {
         "code-assistance-generator": "git+ssh://git@github.ibm.com/apollo-dba-community/code-assistance-generator.git#1.0.0",
-        "docdash": "^1.0.0",
-        "gulp": "^3.9.1",
-        "jsdoc": "^3.5.5",
-        "rimraf": "^2.6.2",
+        "tui-jsdoc-template": "^1.2.2",
+        "gulp": "^4.0.2",
+        "jsdoc": "^3.6.6",
+        "rimraf": "^2.7.1",
         "sequence-stream": "^0.1.0"
     },
     "scripts": {
