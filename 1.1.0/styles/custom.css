@@ -1,0 +1,14 @@
+.logo {
+  display: none;
+}
+
+.main section article table td.name,
+.main section article table td.type,
+.main section article table td.attributes,
+.main section article table td.default {
+  max-width: initial;
+}
+
+.main section article h3.subsection-title {
+  padding-top: 0;
+}
