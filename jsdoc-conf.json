@@ -1,6 +1,7 @@
 {
   "source": {
     "exclude": [
+      "./dist/",
       "./node_modules/"
     ],
     "includePattern": ".+\\.js(doc)?$",
@@ -11,7 +12,7 @@
     "recurse": true,
     "private": false,
     "destination": "./docs",
-    "template": "./node_modules/docdash"
+    "template": "./node_modules/tui-jsdoc-template"
   },
   "tags": {
     "allowUnknownTags": true
@@ -21,11 +22,20 @@
     "default": {
       "cleverLinks": true,
       "monospaceLinks": true,
-      "outputSourceFiles": false
-    }
-  },
-  "docdash": {
-    "search": true,
-    "collapse": true
+      "outputSourceFiles": false,
+      "staticFiles": {
+        "include": ["jsdoc-static/", "assets"]
+      }
+    },
+    "footerText": "Datacap Utils Toolkit",
+    "logo": {
+      "url": "",
+      "width": "150px",
+      "height": "13px",
+      "link": ""
+    },
+    "css": [
+      "styles/custom.css"
+    ]
   }
 }
