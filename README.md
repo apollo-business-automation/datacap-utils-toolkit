@@ -4,7 +4,7 @@ Datacap Utils Toolkit is a collection of re-usable artifacts useful for integrat
 
 Repository: <a href="https://github.com/apollo-business-automation/datacap-utils-toolkit" target="_blank">https://github.com/apollo-business-automation/datacap-utils-toolkit</a>
 
-API: <a href="https://apollo-business-automation.github.io/datacap-utils-toolkit/" target="_blank">https://apollo-business-automation.github.io/datacap-utils-toolkit/</a>
+API: <a href="https://apollo-business-automation.github.io/datacap-utils-toolkit" target="_blank">https://apollo-business-automation.github.io/datacap-utils-toolkit</a>
 
 ## Description
 
@@ -12,7 +12,7 @@ The toolkit provides integration with Transactions which are provided via the Da
 
 ## Content of the toolkit
 
-- Service flows – wrappers for transaction API calls
+- Service flows – wrappers for transaction API calls:
   - Session Logon
   - Session Logoff
   - Transaction Start
