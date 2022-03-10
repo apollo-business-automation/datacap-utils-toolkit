@@ -7,6 +7,15 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [1.2.0] - 2022-03-10
+
+### Added
+
+- A test process with task and task screen allowing to select/upload an input file and calling the Datacap transaction.
+### Changed
+
+- Logging changed from applog to BAW's native logging.
+
 ## [1.1.0] - 2018-12-04
 
 ### Added
