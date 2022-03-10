@@ -27,7 +27,7 @@
         "include": ["jsdoc-static/"]
       }
     },
-    "footerText": "Datacap Utils",
+    "footerText": "Datacap Utils Toolkit",
     "logo": {
       "url": "",
       "width": "150px",
