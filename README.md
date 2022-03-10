@@ -4,4 +4,4 @@ Datacap Utils Toolkit is a collection of re-usable artifacts useful for integrat
 
 JSDoc API for versions:
 
-- <a href="https://apollo-business-automation.github.io/datacap-utils-toolkit/1.1.0" target="_blank">1.1.0</a>
+- <a href="https://apollo-business-automation.github.io/datacap-utils-toolkit/1.2.0" target="_blank">1.2.0</a>
