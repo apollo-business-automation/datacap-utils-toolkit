@@ -24,7 +24,7 @@
       "monospaceLinks": true,
       "outputSourceFiles": false,
       "staticFiles": {
-        "include": ["jsdoc-static/"]
+        "include": ["jsdoc-static/", "assets"]
       }
     },
     "footerText": "Datacap Utils Toolkit",

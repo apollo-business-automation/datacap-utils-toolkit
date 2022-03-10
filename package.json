@@ -11,10 +11,11 @@
         "gulp": "^4.0.2",
         "jsdoc": "^3.6.6",
         "rimraf": "^2.7.1",
-        "sequence-stream": "^0.1.0"
+        "sequence-stream": "^0.1.0",
+        "copyfiles": "^2.4.1"
     },
     "scripts": {
-        "generatejsdoc": "rimraf docs && jsdoc . -r -c ./jsdoc-conf.json -d docs -R ./README.md"
+        "generatejsdoc": "rimraf docs && copyfiles -a assets/* assets/ && jsdoc . -r -c ./jsdoc-conf.json -d docs -R ./README.md && rimraf assets/assets"
     },
     "repository": {
         "type": "git",
